@@ -1,10 +1,6 @@
 package com.internousdevwork.loginTest.action;
 
 import java.util.Map;
-import java.util.List;
-import java.util.ArrayList;
-
-
 import org.apache.struts2.interceptor.SessionAware;
 import com.internousdevwork.loginTest.dao.LoginDAO;
 import com.opensymphony.xwork2.ActionSupport;
