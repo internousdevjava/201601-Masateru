@@ -14,10 +14,10 @@
 <!-- ユーザー名とパスワードのログイン==================================== -->		
 	<s:form action="LoginTestAction">
 		<h2>ログイン</h2>
-		<p>ユーザーID：
+		<p>ユーザーID<br>
 			<s:textfield label="ID1" name="id"/>
 		</p>
-		<p>パスワード：
+		<p>パスワード(数字を入力してください。)<br>
 			<s:password label="パスワード" name="password"/>
 		</p>
 		<s:submit value="ログイン" />
@@ -31,7 +31,9 @@
 	<s:iterator value = "loginError">
 		<s:property value = "loginError"/>
 	</s:iterator>
-
+	<s:iterator value = "numberError">
+		<s:property value = "numberError"/>
+	</s:iterator>
 	
 
 	
